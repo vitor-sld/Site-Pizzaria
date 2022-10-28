@@ -1,0 +1,21 @@
+nav div#nav-direita{
+    float: right;
+    
+}
+
+nav div#nav-Esquerda{
+    float: left;
+}
+
+nav ul{
+display: flex;
+list-style: none;
+flex-flow: row wrap;
+}
+nav ul li{
+    margin: 0px 10px 0px 10px;
+}
+header nav{
+    background: linear-gradient(rgba(0,0,0,0.1)40%, rgba(0,0,0,0.6));
+    height: 70px;
+}

@@ -1,0 +1,123 @@
+/*
+TIPOGRAFIA
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+
+CORES
+VERDE ESCURO: #065902
+VERDE MAIS CLARO: #078C31
+AMARELO: #F2B705
+VERMEHLO MAIS CLARO: F03733
+VERMELHO ESCURO: #D90404
+CINZA ESCURO: #404040
+CINZA CLARO #F7F7F7
+*/
+*{
+    font-size: 16px;
+}
+h1,h2,h3{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D90404;
+}
+h4,h5,h6{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #F2B705;
+}
+h1{
+    font-size: 600%;
+    font-weight: 200;
+}
+h2{
+    font-size: 400%;
+    font-weight: 200;
+}
+h4{
+    font-size: 150%;
+    font-weight: 150;
+}
+
+p, li, a{
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+    text-align: center;
+}
+p.destaque{
+    font-size: 130%;
+    line-height: 1.8;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+/*
+**** ELEMENTOS DO HEADER ****
+*/
+header nav div#navs-superiores{
+    text-transform: uppercase;
+}
+
+header div#chamada h1{
+color: white;
+text-shadow: 4px 6px 10px black;
+}
+header div#chamada h4{
+    font-size: 250%;
+    text-shadow: 4px 6px 10px black;
+    margin-bottom: 40px;
+    }
+header div a#btn-header{
+    color: white;
+    text-decoration: none;
+    padding: 20px 80px 20px 80px;
+    border-radius: 30px;
+    background: linear-gradient(rgba(7,140,49,55) 0%,rgba(6,89,2,45) 60%, rgba(6,89,2,45)100%);
+    font-size: 110%;
+    font-weight: 600;
+}
+/*SECTION DOMINGO PERFEITO*/
+h2:after{
+    display: block;
+    background-color: #078C31;
+
+    height: 5px;
+    width: 100px;
+    margin: 40px auto 30px;
+    content: " ";
+}
+div.pontos-chaves h4{
+    color: #404040;
+}
+div.pontos-chaves h4:after{
+    display: block;
+    background-color: #078C31;
+
+    height: 5px;
+    width: 30%;
+    margin: 20px auto 10px;
+    content: " ";
+}
+section#domingo-perfeito div.pontos-chaves p{
+    font-size: 105%;
+    margin-top: 30px;
+}
+  /* SEÇÃO - PIZZA*/
+
+section#pizza p{
+    color: #f7f7f7;
+    width: 40%;
+}
+section#pizza ul li{
+    color: #f7f7f7;
+    list-style: none;
+    line-height: 1.9;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+
+/* SEÇÃO - Destaque*/
+section#testemunha p.destaque{
+width: 40%;
+}
